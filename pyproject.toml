@@ -37,6 +37,7 @@ keywords = ["auto-clicker"]
 license = "MIT"
 name = "rendakun"
 packages = [{include = "rendakun"}]
+include = ["resources/icon.ico"]
 readme = "README.md"
 repository = "https://github.com/eggplants/rendakun.py"
 version = "0.0.1"

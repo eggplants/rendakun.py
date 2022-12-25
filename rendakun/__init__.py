@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 import sys
+from importlib.resources import files
 
 from pyautogui import click
 from PyQt6.QtCore import Qt, QThread, pyqtSlot
-from PyQt6.QtGui import QFont, QIntValidator, QKeyEvent
+from PyQt6.QtGui import QFont, QIcon, QIntValidator, QKeyEvent
 from PyQt6.QtWidgets import (
     QApplication,
     QHBoxLayout,
@@ -25,6 +26,9 @@ class MainWindow(QMainWindow):
         self.initUI()
 
     def initUI(self) -> None:
+        iconPath = files("rendakun").joinpath("resources/icon.ico")
+        if iconPath.is_file():
+            self.setWindowIcon(QIcon(str(iconPath)))
         self.setWindowTitle(f"連打くん Version {__version__}")
         self.setStyleSheet("background-color: black;")
         self.rendakunWidget = Widget()
