@@ -31,7 +31,7 @@ jobs:
 
     - run: pyinstaller -F ${{ env.PROJECT_NAME }}/__init__.py -n ${{ env.PROJECT_NAME }} -i resources/icon.ico --version-file resources/file_version_info.txt
 
-    - uses: actions/upload-artifact@v1
+    - uses: actions/upload-artifact@v3
       with:
         name: ${{ env.PROJECT_NAME }}-windows
         path: dist/${{ env.PROJECT_NAME }}.exe
@@ -55,7 +55,7 @@ jobs:
 
     - run: pyinstaller -F ${{ env.PROJECT_NAME }}/__init__.py -n ${{ env.PROJECT_NAME }}   # -i resources/icon.icns
 
-    - uses: actions/upload-artifact@v1
+    - uses: actions/upload-artifact@v3
       with:
         name: ${{ env.PROJECT_NAME }}-macos
         path: dist/${{ env.PROJECT_NAME }}
@@ -80,7 +80,7 @@ jobs:
 
     - run: pyinstaller -F ${{ env.PROJECT_NAME }}/__init__.py -n ${{ env.PROJECT_NAME }}
 
-    - uses: actions/upload-artifact@v1
+    - uses: actions/upload-artifact@v3
       with:
         name: ${{ env.PROJECT_NAME }}-linux
         path: dist/${{ env.PROJECT_NAME }}
