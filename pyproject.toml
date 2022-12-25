@@ -1,3 +1,5 @@
+# poetry self add poetry-bumpversion
+
 [build-system]
 build-backend = "poetry.core.masonry.api"
 requires = ["poetry-core"]
