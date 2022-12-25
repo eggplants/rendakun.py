@@ -33,7 +33,7 @@ classifiers = [
   "Programming Language :: Python :: 3 :: Only",
   "Development Status :: 3 - Alpha",
 ]
-description = ""
+description = "A Python Clone of 連打くん - rendakun, auto-clicker for Windows"
 keywords = ["auto-clicker"]
 license = "MIT"
 name = "rendakun"
