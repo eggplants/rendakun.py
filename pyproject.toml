@@ -39,7 +39,7 @@ name = "rendakun"
 packages = [{include = "rendakun"}]
 readme = "README.md"
 repository = "https://github.com/eggplants/rendakun.py"
-version = "0.0.0"
+version = "0.0.1"
 
 [tool.poetry.dependencies]
 pyautogui = "^0.9.53"
