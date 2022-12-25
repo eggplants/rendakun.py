@@ -1,5 +1,7 @@
 # rendakun.py
 
+![screenshot](https://user-images.githubusercontent.com/42153744/209469016-63c80c2f-c5b5-4c80-ad91-85e25580512f.png)
+
 [![PyPI version](
   https://badge.fury.io/py/rendakun.svg
   )](
