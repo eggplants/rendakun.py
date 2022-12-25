@@ -1,0 +1,69 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool]
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+
+[tool.flake8]
+ignore = "W605,"
+max-complexity = 18
+max-line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+pretty = true
+python_version = "3.9"
+show_error_codes = true
+strict = true
+
+[tool.poetry]
+authors = ["eggplants <w10776e8w@yahoo.co.jp>"]
+classifiers = [
+  "Environment :: X11 Applications",
+  'Environment :: Win32 (MS Windows)',
+  'Environment :: X11 Applications',
+  'Environment :: MacOS X',
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Development Status :: 3 - Alpha",
+]
+description = ""
+keywords = ["auto-clicker"]
+license = "MIT"
+name = "rendakun"
+packages = [{include = "rendakun"}]
+readme = "README.md"
+repository = "https://github.com/eggplants/rendakun.py"
+version = "0.0.0"
+
+[tool.poetry.dependencies]
+pyautogui = "^0.9.53"
+pyqt6 = "^6.4.0"
+pyqt6-stubs = {git = "https://github.com/python-qt-tools/PyQt6-stubs", rev = "main"}
+python = "^3.11"
+types-pyautogui = "^0.9.3.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+flake8 = "^6.0.0"
+isort = "^5.11.4"
+mypy = "^0.991"
+pre-commit = "^2.20.0"
+pyproject-flake8 = "^6.0.0.post1"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.scripts]
+rendakun = 'rendakun:main'
+
+[tool.poetry_bumpversion.file."rendakun/__init__.py"]
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::DeprecationWarning"]
+testpaths = ["tests"]
