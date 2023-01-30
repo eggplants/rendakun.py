@@ -3392,16 +3392,16 @@ flake8 = "6.0.0"
 
 [[package]]
 name = "pyqt6"
-version = "6.4.0"
+version = "6.4.1"
 description = "Python bindings for the Qt cross platform application toolkit"
 category = "main"
 optional = false
 python-versions = ">=3.6.1"
 files = [
-    {file = "PyQt6-6.4.0-cp37-abi3-macosx_10_14_universal2.whl", hash = "sha256:8e614cc4b95dec8bec8ba3c3eaf821058b45862e66d69a8c4fb5576123f2be98"},
-    {file = "PyQt6-6.4.0-cp37-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:79d093ce97010eac92e83a4e8efe231328af9ec757ba78c77e46ca1e007eca0d"},
-    {file = "PyQt6-6.4.0-cp37-abi3-win_amd64.whl", hash = "sha256:37e399420866fff5c5bd49f56710dffd3a7a126afc6612b877d666f381bd554f"},
-    {file = "PyQt6-6.4.0.tar.gz", hash = "sha256:91392469be1f491905fa9e78fa4e4059a89ab616ddf2ecfd525bc1d65c26bb93"},
+    {file = "PyQt6-6.4.1-cp37-abi3-macosx_10_14_universal2.whl", hash = "sha256:5eaca9cee1c53a487a3f17e6ff360323366d723ec4deefed6b5c9a067ae84a4e"},
+    {file = "PyQt6-6.4.1-cp37-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:9f803d8690be87b1cd8eec3b76774aae6d27e2e01a9ae7b0e1bfce80915f1c87"},
+    {file = "PyQt6-6.4.1-cp37-abi3-win_amd64.whl", hash = "sha256:cb8dc8b2f08324f758153fbce7d78f383f549e978995e7904072583e317d7983"},
+    {file = "PyQt6-6.4.1.tar.gz", hash = "sha256:0c1dcadf161331cfdbde0906c05f7f8048dc4907d717647c33bbc4404146f59f"},
 ]
 
 [package.dependencies]
