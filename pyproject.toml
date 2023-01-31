@@ -32,14 +32,14 @@ classifiers = [
   "Environment :: MacOS X",
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3 :: Only",
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 3 - Alpha"
 ]
 description = "A Python Clone of 連打くん - rendakun, auto-clicker for Windows"
+include = ["resources/icon.ico"]
 keywords = ["auto-clicker"]
 license = "MIT"
 name = "rendakun"
 packages = [{include = "rendakun"}]
-include = ["resources/icon.ico"]
 readme = "README.md"
 repository = "https://github.com/eggplants/rendakun.py"
 version = "0.0.1"
