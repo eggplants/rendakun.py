@@ -3655,13 +3655,13 @@ version = "9.4.0.10"
 category = "main"
 description = "Typing stubs for PyAutoGUI"
 files = [
-  {file = "types-PyAutoGUI-0.9.3.4.tar.gz", hash = "sha256:19d6246eb48ee091309c87fb8abfe78342594297923bed637e1741370b7b734e"},
-  {file = "types_PyAutoGUI-0.9.3.4-py3-none-any.whl", hash = "sha256:168c9fd344d5ada3378154363557b7725b09a579c649115b40724e1884470149"}
+  {file = "types-PyAutoGUI-0.9.3.5.tar.gz", hash = "sha256:77837890a9d5e325a9aae55905f720f7d2276b296939b6776fb646b04045bee5"},
+  {file = "types_PyAutoGUI-0.9.3.5-py3-none-any.whl", hash = "sha256:ce61d1134c8bd89134e267c8331f3c26a0a3ccfaaf05194a0de8dedb3b92c07f"}
 ]
 name = "types-pyautogui"
 optional = false
 python-versions = "*"
-version = "0.9.3.4"
+version = "0.9.3.5"
 
 [package.dependencies]
 types-Pillow = "*"
