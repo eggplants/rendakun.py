@@ -3366,33 +3366,33 @@ flake8 = "6.0.0"
 category = "main"
 description = "Python bindings for the Qt cross platform application toolkit"
 files = [
-  {file = "PyQt6-6.4.2-cp37-abi3-macosx_10_14_universal2.whl", hash = "sha256:c128bc0f17833e324593e3db83e99470d451a197dd17ff0333927b946c935bd9"},
-  {file = "PyQt6-6.4.2-cp37-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:18d1daf98d9236d55102cdadafd1056f5802f3c9288fcf7238569937b71a89f0"},
-  {file = "PyQt6-6.4.2-cp37-abi3-win_amd64.whl", hash = "sha256:25bd399b4a95dce65d5f937c1aa85d3c7e14a21745ae2a4ca14c0116cd104290"},
-  {file = "PyQt6-6.4.2.tar.gz", hash = "sha256:740244f608fe15ee1d89695c43f31a14caeca41c4f02ac36c86dfba4a5d5813d"}
+  {file = "PyQt6-6.5.0-cp37-abi3-macosx_10_14_universal2.whl", hash = "sha256:e3c8289d9a509be897265981b77eb29e64ce29e9d221fdf52545c2c95e819c9b"},
+  {file = "PyQt6-6.5.0-cp37-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:2b0d9628134811fbfc988d1757111ca8e25cb697f136fa54c969fb1a4d4a61d1"},
+  {file = "PyQt6-6.5.0-cp37-abi3-win_amd64.whl", hash = "sha256:99ea0e68f548509b7ef97cded0feeaf3dca7d1fe719388569407326be3be38c2"},
+  {file = "PyQt6-6.5.0.tar.gz", hash = "sha256:b97cb4be9b2c8997904ea668cf3b0a4ae5822196f7792590d05ecde6216a9fbc"}
 ]
 name = "pyqt6"
 optional = false
 python-versions = ">=3.6.1"
-version = "6.4.2"
+version = "6.5.0"
 
 [package.dependencies]
-PyQt6-Qt6 = ">=6.4.0"
+PyQt6-Qt6 = ">=6.5.0"
 PyQt6-sip = ">=13.4,<14"
 
 [[package]]
 category = "main"
 description = "The subset of a Qt installation needed by PyQt6."
 files = [
-  {file = "PyQt6_Qt6-6.4.2-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:a29b8c858babd523e80c8db5f8fd19792641588ec04eab49af18b7a4423eb99f"},
-  {file = "PyQt6_Qt6-6.4.2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:9f07c3c100cb46cca4074965e7494d4df4f0fc016497d5303c1fe135822876e1"},
-  {file = "PyQt6_Qt6-6.4.2-py3-none-manylinux_2_28_x86_64.whl", hash = "sha256:c0e91d0275d428496cacff717a9b719c52bfa52b21f124d638b79cc2217bc81e"},
-  {file = "PyQt6_Qt6-6.4.2-py3-none-win_amd64.whl", hash = "sha256:d19c4e72615762cd6f0b043f23fa5f0b02656091427ce6de1efccd58e10e6a53"}
+  {file = "PyQt6_Qt6-6.5.0-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:1178fcd5e9590fec4261e06a753a8fa028222ec0bd9a0788b3bd37720fbbe6cf"},
+  {file = "PyQt6_Qt6-6.5.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:9d82d8af986a0eef55905f309fdda4303d1354eba10175824ae62ab6547f7a96"},
+  {file = "PyQt6_Qt6-6.5.0-py3-none-manylinux_2_28_x86_64.whl", hash = "sha256:5f40ef19eb632731828283361f800928517650c74c914c093af9a364d6843953"},
+  {file = "PyQt6_Qt6-6.5.0-py3-none-win_amd64.whl", hash = "sha256:8c1f898f4d02a31615fe7613a38f82b489fb2c8554965c917d551470731635a8"}
 ]
 name = "pyqt6-qt6"
 optional = false
 python-versions = "*"
-version = "6.4.2"
+version = "6.5.0"
 
 [[package]]
 category = "main"
