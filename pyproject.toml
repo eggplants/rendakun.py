@@ -55,7 +55,7 @@ types-pyautogui = "^0.9.3.2"
 build = ["pyinstaller"]
 
 [tool.poetry.group.dev.dependencies]
-black = "^22.12.0"
+black = ">=22.12,<24.0"
 flake8 = "^6.0.0"
 isort = "^5.11.4"
 mypy = ">=0.991,<1.4"
